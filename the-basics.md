@@ -6,6 +6,7 @@
 <html lang="en">
   <head>
     <meta charset="utf8">
+    <title>First Steps</title>
     <script src="scripts/lib/angular.js"></script>     
   </head>
   <body ng-app='playground'>
