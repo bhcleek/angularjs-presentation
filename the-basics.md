@@ -1,6 +1,6 @@
 * add a reference to angular.js
 * add @ng-app to an element
-* add @ng-view to an child element of *[@ng-app]
+* add @ng-view to a child element of *[@ng-app]
 ```html
 <!doctype html>
 <html lang="en">
