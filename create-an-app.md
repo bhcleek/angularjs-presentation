@@ -1,5 +1,3 @@
-create an app
-=========
 use angular-seed
 --------------------
 http://github.com/angular/angular-seed
