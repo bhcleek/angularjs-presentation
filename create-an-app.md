@@ -1,9 +1,11 @@
+create a app
+=========
 use angular-seed
-============
+--------------------
 http://github.com/angular/angular-seed
 
 generate an app
-============
+-------------------
 First, install Ruby and Compass.
 
 Then
