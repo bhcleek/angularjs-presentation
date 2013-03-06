@@ -1,4 +1,4 @@
-create a app
+create an app
 =========
 use angular-seed
 --------------------
