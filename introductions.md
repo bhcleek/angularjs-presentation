@@ -11,6 +11,6 @@ AngularJS is one of the new breed of MVC JavaScript frameworks. Riding fast on t
 Why it's great
 ----------------
 * uses HTML as the view template, letting the browser be the view engine.
-* supports dependency injection
+* supports dependency injection (unit tests!)
 * no more mucking with the DOM
 * directives!
