@@ -1,3 +1,9 @@
+use angular-seed
+============
+http://github.com/angular/angular-seed
+
+generate an app
+============
 First, install Ruby and Compass.
 
 Then
@@ -12,4 +18,4 @@ yo angular --coffee
 # Would you like to include angular-sanitize.js? (Y/n) y
 npm install
 bower install --dev
-``` 
+```
