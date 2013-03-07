@@ -14,3 +14,5 @@ Why it's great
 * supports dependency injection (unit tests!)
 * no more mucking with the DOM
 * directives!
+
+[[next|the basics]]
