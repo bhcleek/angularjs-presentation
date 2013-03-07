@@ -19,4 +19,4 @@
   </body>
 </html>
 ```
-[[introductions|prev]] | [[create an app|next]]
+[[prev|introductions]] | [[next|create an app]]
