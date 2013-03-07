@@ -5,4 +5,5 @@
 * injection
 * services
 * resources
+* directives
 * testing
