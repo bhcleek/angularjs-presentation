@@ -1,24 +1,29 @@
 'use strict'
 
+class HostedEvent
+   constructor: (@name) ->
+
 angular.module('angularPresentationApp')
   .controller 'DemoCtrl', ($scope) ->
-    $scope.invitations = ["Embrace Node", "Embrace Coffee", "Embrace Beer, Bikes, and Food", "All One"]
+    $scope.invitations = [new HostedEvent("Embrace Node"), new HostedEvent("Embrace Coffee"), new HostedEvent("Embrace Beer, Bikes, and Food"), new HostedEvent("All One")]
 
-    return $scope
+    return
 
 angular.module('angularPresentationApp')
    .controller 'DemoInvitationCtrl', ($scope) ->
-      $scope.event = {name: ''}
+      $scope.obj = new HostedEvent ''
       $scope.status = ''
 
       $scope.setStatus = (prefix) ->
-         $scope.status = prefix + $scope.event.name
+         $scope.status = prefix + $scope.obj.name
 
       $scope.addInvitation = () ->
-         $scope.invitations.push $scope.event.name
+         theEvent = $scope.obj
+
+         $scope.invitations.push theEvent
          $scope.setStatus 'you planned to '
-         $scope.event = {name: ''}
+         $scope.obj = new HostedEvent ''
 
-      return $scope
-    
+         return theEvent
 
+      return
