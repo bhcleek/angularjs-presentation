@@ -16,6 +16,6 @@ yo angular --coffee
 # Would you like to include angular-resource.js? (Y/n) y
 # Would you like to include angular-cookies.js? (Y/n) y
 # Would you like to include angular-sanitize.js? (Y/n) y
-npm install --dev
+npm install
 bower install --dev
 ```
