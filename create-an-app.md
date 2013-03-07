@@ -20,3 +20,5 @@ npm install
 bower install --dev
 ```
 if <= 0.1.5 and --coffee was used to generate app then go fix the coffee:dist target.
+
+[[next|resources]]
