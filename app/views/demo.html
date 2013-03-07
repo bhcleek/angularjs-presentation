@@ -1,10 +1,14 @@
 <div class="hero-unit">
   <h1>Hello, Noders!</h1>
   <p>Let's do something minimally interesting</p>
-  <form name="demo-form">
-	  <input type="text" value="{{invitation}}" />
-  <form>
+  <div ng-controller="DemoInvitationCtrl">
+	  <form name="eventForm" ng-controller="DemoInvitationCtrl" ng-submit="addInvitation()">
+		  <label for="eventName">Next Event: </label> <input ng-model="event.name" name="eventName" type="text" value="" />
+	  <form>
+	  <div>You are planning {{event.name}}</div>
+  </div>
   <ul>
-	  <li ng-repeat="invitation in invitations">You are invited to {{invitation}}</li>
+	  <li ng-repeat="invitation in invitations">You are hosting {{invitation}}!</li>
   </ul>
+
 </div>
