@@ -10,6 +10,7 @@ Then
 ```
 npm install -g yo grunt-cli bower
 npm install generator-angular generator-testacular
+npm install --save-dev grunt
 yo angular --coffee
 # Would you like to include Twitter Bootstrap? (Y/n) y
 # If so, would you like to use Twitter Bootstrap for Compass (as opposed to vanilla CSS)? (Y/n) y
