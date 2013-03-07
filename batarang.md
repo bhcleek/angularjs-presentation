@@ -18,4 +18,4 @@ If we have time
 * directives
 * testing
 
-[[next|resources]]
+[[prev|code]] | [[next|resources]]
